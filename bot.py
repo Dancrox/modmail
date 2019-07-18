@@ -264,7 +264,7 @@ class ModmailBot(commands.Bot):
             return discord.utils.get(self.modmail_guild.categories, id=int(category_id))
 
         if self.modmail_guild:
-            return discord.utils.get(self.modmail_guild.categories, name="▬▬▬🔸│StingerZ Mail│🔸▬▬▬")
+            return discord.utils.get(self.modmail_guild.categories, name="MODMAIL")
         return None
 
     @property
